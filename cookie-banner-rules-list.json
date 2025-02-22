@@ -82,6 +82,113 @@
       }
     },
     {
+      "id": "civiccookiecontrolbar",
+      "domains": [],
+      "click": {
+        "optIn": "#ccc-notify-accept",
+        "optOut": "#ccc-notify-reject",
+        "presence": "#ccc-notify"
+      }
+    },
+    {
+      "id": "cookiehub",
+      "domains": [],
+      "click": {
+        "optIn": ".ch2-allow-all-btn",
+        "optOut": ".ch2-deny-all-btn",
+        "presence": ".ch2-dialog"
+      }
+    },
+    {
+      "id": "trustcommander",
+      "domains": [],
+      "click": {
+        "optIn": "#popin_tc_privacy_button",
+        "optOut": "#popin_tc_privacy_button_2",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
+      "id": "finsweetcookieconsent",
+      "domains": [],
+      "click": {
+        "presence": "[fs-cc=\"banner\"]",
+        "optOut": "[fs-cc=\"deny\"]",
+        "optIn": "[fs-cc=\"allow\"]"
+      }
+    },
+    {
+      "id": "termsfeed",
+      "domains": [],
+      "click": {
+        "presence": "#termsfeed-com---nb",
+        "optOut": ".cc-nb-reject",
+        "optIn": ".cc-nb-okagree"
+      }
+    },
+    {
+      "id": "ihavecookies",
+      "domains": [],
+      "click": {
+        "presence": "#gdpr-cookie-message",
+        "optIn": "#gdpr-cookie-accept"
+      }
+    },
+    {
+      "id": "hubspotcookieconsent",
+      "domains": [],
+      "click": {
+        "presence": "#hs-eu-cookie-confirmation",
+        "optOut": "#hs-eu-decline-button",
+        "optIn": "#hs-eu-confirmation-button"
+      }
+    },
+    {
+      "id": "evidon",
+      "domains": [],
+      "click": {
+        "presence": "#_evidon_banner",
+        "optOut": "#_evidon-decline-button",
+        "optIn": "#_evidon-accept-button"
+      }
+    },
+    {
+      "id": "cookieyes",
+      "domains": [],
+      "click": {
+        "presence": "#cky-consent, .cky-consent-container",
+        "optOut": ".cky-btn-reject",
+        "optIn": ".cky-btn-accept"
+      }
+    },
+    {
+      "id": "cookiescript",
+      "domains": [],
+      "click": {
+        "presence": "#cookiescript_injected",
+        "optOut": "#cookiescript_reject",
+        "optIn": "#cookiescript_accept"
+      }
+    },
+    {
+      "id": "osano",
+      "domains": [],
+      "click": {
+        "optIn": ".osano-cm-accept-all",
+        "optOut": ".osano-cm-denyAll",
+        "presence": ".osano-cm-dialog"
+      }
+    },
+    {
+      "id": "legalweb",
+      "domains": [],
+      "click": {
+        "optIn": ".lw-pp-btn-accept-all, .sp-dsgvo-privacy-btn-accept-all",
+        "optOut": ".lw-pp-btn-accept-nothing, .sp-dsgvo-privacy-btn-accept-nothing",
+        "presence": ".lwb-pp-overlay, .sp-dsgvo-popup-overlay"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -553,15 +660,9 @@
       "cookies": {
         "optOut": [
           {
-            "name": "CONSENT",
-            "path": "/",
-            "value": "PENDING+742",
-            "sameSite": 0
-          },
-          {
             "name": "SOCS",
             "path": "/",
-            "value": "CAESNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwOTEyLjA4X3AwGgJlbiACGgYIgOCTqAY",
+            "value": "CAESEwgDEgk2ODE2MjA0MzYaAmVuIAEaBgiAg4K4Bg",
             "sameSite": 0
           }
         ]
